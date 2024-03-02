@@ -1,0 +1,46 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.main {
+  height: 100vh;
+  margin: 0 auto;
+  width: 100vw;
+  background-color: darkcyan;
+  overflow-x: scroll;
+}
+
+#chat {
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px 0px;
+}
+#messageForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.button {
+  color: darkslateblue;
+}
+input {
+  margin-top: 10px;
+  text-align: center;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.button {
+  background-color: cornflowerblue;
+  color: red;
+}
+label {
+  font-size: 25px;
+}
+.dinamicDiv {
+  font-size: 20px;
+  margin: 5px;
+}
